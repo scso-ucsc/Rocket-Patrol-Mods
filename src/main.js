@@ -1,3 +1,9 @@
+//Name: Sean Eric So
+//Mod Title: Rocket Patrol Reloaded
+//Time it took to complete project: 10 hours
+//Mods Chosen:
+//Citations
+
 let config = {
     type: Phaser.CANVAS,
     width: 640,
