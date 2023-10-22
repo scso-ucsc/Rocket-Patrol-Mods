@@ -1,15 +1,17 @@
 //Name: Sean Eric So
-//Mod Title: Rocket Patrol Reloaded
-//Time it took to complete project: 10 hours
+//Mod Title: Rocket Patrol: Reloaded v120
+//Time it took to complete project: 8.5 hours
 //Mods Chosen:
     // 1 Point - Track high score (DONE)
+    // 1 Point - Implement the 'FIRE' UI text (DONE)
     // 1 Point - Adding music that loops in Play Scene (DONE)
     // 1 Point - New scrolling tile sprite for the background (DONE)
     // 1 Point - Allow player to control spaceship after firing (DONE)
+    // 1 Point - Implement speed increase after 30 seconds (DONE)
+    // 3 Points - Create 4 new explosion sound effects and randomize which one plays on impact (DONE)
     // 3 Points - Create new animated sprite for spaceships (DONE)
-    // 3 Points - New title screen
-    // 5 Points - New enemy spaceship that is smaller, faster, and worth more points
-    // 5 Points
+    // 3 Points - New title screen (DONE)
+    // 5 Points - New enemy spaceship that is smaller, faster, and worth more points (DONE)
 //Citations
 
 let config = {
