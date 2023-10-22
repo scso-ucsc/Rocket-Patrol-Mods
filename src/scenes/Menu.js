@@ -8,6 +8,7 @@ class Menu extends Phaser.Scene {
         this.load.audio("sfx_select", './assets/blip_select12.wav');
         this.load.audio("sfx_explosion", './assets/explosion38.wav');
         this.load.audio("sfx_rocket", './assets/rocket_shot.wav');
+        this.load.audio("play_audio", './assets/adventure_meme.wav'); //By Kevin Macleod: https://www.youtube.com/watch?v=s7iUL1pyAjQ
     }
 
     create(){
@@ -38,17 +39,19 @@ class Menu extends Phaser.Scene {
 
     update(){
         if(Phaser.Input.Keyboard.JustDown(keyLEFT)){ //Easy mode
+            difficultyChosen = "Novice";
             game.settings = {
                 spaceshipSpeed: 3,
-                gameTimer: 60000
+                gameTimer: 10000 //60000 CHANGE BACK!
             }
             this.sound.play("sfx_select");
             this.scene.start("playScene");
         }
         if(Phaser.Input.Keyboard.JustDown(keyRIGHT)){ //Hard mode
+            difficultyChosen = "Expert";
             game.settings = {
                 spaceshipSpeed: 4,
-                gameTimer: 45000
+                gameTimer: 10000 //45000 CHANGE BACK!
             }
             this.sound.play("sfx_select");
             this.scene.start("playScene");
